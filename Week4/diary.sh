@@ -1,5 +1,7 @@
 #!/bin/bash
 
+diaryfile = diary.txt
+
 echo "Diary Entry"
 
 echo "Enter in Diary Passage" $DiaryLine
