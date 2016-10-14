@@ -4,9 +4,8 @@ diaryfile = diary.txt
 
 echo "Diary Entry"
 
-echo "Enter in Diary Passage" $DiaryLine
 read DiaryLine
 
 
-cat $DiaryLine >> diary.txt
+echo $( date ) $DiaryLine >> diary.txt
 
